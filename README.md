@@ -1,16 +1,10 @@
 # Burger Dev 🍔
 
-Burger Dev es una aplicación de restaurante diseñada para dispositivos móviles.
+Burger Dev es una aplicación de restaurante diseñada para dispositivos móviles. 📱
 
-## Vista Previa
+**¡Accede a la aplicación aquí:** [Burger Dev en Netlify](https://main--lucky-custard-31b5d1.netlify.app/) 🚀
 
-Aquí tienes una vista previa de nuestra aplicación:
-
-![Vista Previa](.img/capture.png)
-
-
-
-## Tabla de Contenidos
+## Tabla de Contenidos 📋
 
 - [Descripción General](#descripción-general)
 - [Interfaz de Usuario (UI)](#interfaz-de-usuario-ui)
@@ -28,11 +22,11 @@ Aquí tienes una vista previa de nuestra aplicación:
 - [Despliegue y Control de Versiones](#despliegue-y-control-de-versiones)
 - [Lenguajes y Herramientas](#lenguajes-y-herramientas)
 
-## Descripción General
+## Descripción General 📝
 
 Burger Dev es una aplicación de restaurante que se enfoca en brindar una experiencia fluida para usuarios de dispositivos móviles.
 
-## Interfaz de Usuario (UI)
+## Interfaz de Usuario (UI) 💻
 
 ### Vista en Móviles
 
@@ -54,7 +48,7 @@ Se incluye un pie de página elegante en el diseño.
 
 Hacemos uso efectivo de selectores CSS para el estilo.
 
-## React
+## React ⚛️
 
 ### Props
 
@@ -72,11 +66,11 @@ Burger Dev incluye una sección dedicada para hacer reservas.
 
 Se proporciona un formulario amigable para hacer reservas.
 
-## Almacenamiento de Datos
+## Almacenamiento de Datos 🗄️
 
 Almacenamos los datos de las reservas usando Firebase.
 
-## Despliegue y Control de Versiones
+## Despliegue y Control de Versiones 🚀
 
 Hemos creado un repositorio en GitHub para el control de versiones.
 
@@ -84,7 +78,7 @@ Hemos creado un repositorio en GitHub para el control de versiones.
 
 La aplicación se despliega usando `npm build`.
 
-## Lenguajes y Herramientas
+## Lenguajes y Herramientas 🛠️
 
 Las siguientes tecnologías se utilizan en este proyecto:
 
@@ -94,7 +88,4 @@ Las siguientes tecnologías se utilizan en este proyecto:
 - React
 - Firebase
 - GitHub
-
-
-
 
