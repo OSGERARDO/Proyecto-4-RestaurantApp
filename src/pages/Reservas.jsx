@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { db } from "../firebase/firebase"
 import moment from "moment"
-import  "./reservas.css"
+import  "./reservas.css";
+
 
 
 export const Reservas = () => {
