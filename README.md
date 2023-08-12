@@ -1,6 +1,6 @@
 # Burger Dev 🍔
 
-Burger Dev es una aplicación de restaurante diseñada para dispositivos móviles. 📱
+Burger Dev es una aplicación de restaurante diseñada para dispositivos móviles y pc. 📱
 
 **¡Accede a la aplicación aquí:** [Burger Dev en Netlify](https://main--lucky-custard-31b5d1.netlify.app/) 🚀
 
