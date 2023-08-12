@@ -6,7 +6,7 @@ Burger Dev es una aplicación de restaurante diseñada para dispositivos móvile
 
 Aquí tienes una vista previa de nuestra aplicación:
 
-![Vista Previa](img/capture.png)
+![Vista Previa](.img/capture.png)
 
 
 
@@ -95,6 +95,6 @@ Las siguientes tecnologías se utilizan en este proyecto:
 - Firebase
 - GitHub
 
-Siéntete libre de agregar más detalles o secciones según sea necesario. ¡Buena suerte con tu proyecto!
+
 
 
