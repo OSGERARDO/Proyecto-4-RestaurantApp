@@ -1,0 +1,20 @@
+
+
+.menu-h1{
+    padding: 50px;
+    background-color: #000000;
+    color: rgb(153, 255, 0);
+    text-align: center;
+}
+.menu-h3{
+padding: 10px;
+text-align: center;
+background-color: #000000;
+color: #ddd;
+}
+
+.p-menu{
+    color: #ddd;
+    background-color: #000000;
+    padding: 100px;
+}

@@ -1,0 +1,15 @@
+
+body{
+    background-image: url('img/burgeruno.jpg');
+    background-repeat: no-repeat; 
+  background-size:cover; 
+  background-position: center center; 
+    padding: 10px;
+}
+.h1-reservas {
+    color: rgb(9, 250, 1);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(2, 255, 86, 0.267);
+}
