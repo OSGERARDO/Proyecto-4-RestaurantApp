@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { db } from "../firebase/firebase"
 import moment from "moment"
-import  "./reservas.css";
+import  "./Reservas.css";
 
 
 
