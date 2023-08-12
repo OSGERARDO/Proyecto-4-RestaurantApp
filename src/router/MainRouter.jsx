@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { Home } from '../pages/Home'
-import { About } from '../pages/About'
-import { Menu } from '../pages/menu'
-import { Reservas } from '../pages/Reservas'
+import { Home } from '../pages/Home.jsx'
+import { About } from '../pages/About.jsx'
+import { Menu } from '../pages/Menu.jsx'
+import { Reservas } from '../pages/Reservas.jsx'
 
 
 export const MainRouter = () => {
