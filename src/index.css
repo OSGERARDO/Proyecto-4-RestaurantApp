@@ -1,23 +1,36 @@
 body {
-    background-color: black;
-    overflow: hidden;
-    position: relative;
-    font-family: monospace;
-    color: rgba(0, 255, 0, 0.274);
+ background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+
+
 }
 
-.falling-letters {
-    position: absolute;
-    top: 0;
-    animation: falling 30s linear infinite;
+
+/* Estilos para los encabezados */
+h1,
+h2 {
+  color: #ffffff;
+  /* Amarillo dorado para destacar los encabezados */
 }
 
-@keyframes falling {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(100vh);
-    }
+/* Estilos para enlaces */
+a {
+  color: #FF6347;
+  /* Rojo coral para resaltar los enlaces */
+  text-decoration: none;
 }
+
+/* Estilos para botones */
+.button {
+  background-color: #FF4500;
+  /* Rojo anaranjado para llamar la atención en los botones */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

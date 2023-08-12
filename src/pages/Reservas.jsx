@@ -38,22 +38,24 @@ export const Reservas = () => {
 
   return (
     <>
-      <h1 className="h1-reservas">Reservas </h1>
+      <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
+    <div>
+      <h1 className="h1-reservas">¡Haz tu reserva!</h1>
 
       <form className="form gap-5 p-5" onSubmit={enviarFormulario}>
-        <input type="text" className="form-control mt-3"  name="nombre" placeholder="Ingrese su nombre"
+        <input type="text" className="form-control mt-3" name="nombre" placeholder="Ingrese su nombre"
           value={reserva.nombre} onChange={onChange} required minLength={3} style={{ width: "300px" }} />
 
         <input type="number" className="form-control mt-3" name="comensales" placeholder="Cantidad de comensales"
-          value={reserva.comensales} onChange={onChange} required min={1} max={10} style={{ width: "300px" }}/>
+          value={reserva.comensales} onChange={onChange} required min={1} max={10} style={{ width: "300px" }} />
 
         <input type="datetime-local" className="form-control mt-3" name="reserva" placeholder="Fecha de reserva"
           value={reserva.reserva} onChange={onChange} min={moment().add(12,"hours").format("YYYY-MM-DD hh:mm")} required style={{ width: "300px" }} />
 
-        <><button type="submit" className="btn btn-primary mt-3">Enviar reserva</button></>
-
-
+        <button type="submit" className="btn btn-primary mt-3">Enviar reserva</button>
       </form>
+    </div>
+  </div>
     </>
     
   )

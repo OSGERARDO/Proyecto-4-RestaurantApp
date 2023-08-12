@@ -2,12 +2,12 @@
 export const Footer = () => {
     return (
         <>
-
-            <div className="bg-black">
-                <img src="" alt="" />
-                <h4>"¡Saborea la perfección en cada mordisco con Burger - Dev!</h4>
-            </div>
-
+ <footer className="bg-dark text-white py-3">
+      <div className="container text-center">
+        <p>&copy; {new Date().getFullYear()} Burger-Dev. Todos los derechos reservados.</p>
+        <p>Contacto: contacto@burger-dev.com</p>
+      </div>
+    </footer>
 
         </>
     )

@@ -1,3 +1,29 @@
-.parrafo-about{
-    text-align: center;
-}
+/* Estilos para la sección Acerca de Nosotros */
+.about-us {
+    background-color: #f8f8f8;
+    padding: 50px 10px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
