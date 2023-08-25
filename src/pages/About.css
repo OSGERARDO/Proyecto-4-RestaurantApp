@@ -1,10 +1,13 @@
 /* Estilos para la sección Acerca de Nosotros */
 .about-us {
-    background-color: #f8f8f8;
+    background-color: #000000;
     padding: 50px 10px;
+    
   }
   
   .card {
+    background-color: #000000;
+    color: yellow;
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

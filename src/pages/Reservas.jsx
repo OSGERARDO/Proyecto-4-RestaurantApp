@@ -39,8 +39,10 @@ export const Reservas = () => {
 
   return (
     <>
+
       <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
     <div>
+    
       <h1 className="h1-reservas">¡Haz tu reserva!</h1>
 
       <form className="form gap-5 p-5" onSubmit={enviarFormulario}>

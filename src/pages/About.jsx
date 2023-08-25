@@ -14,7 +14,7 @@ export const About = () => {
           <div className="card-body">
             <h2 className="card-title">Acerca de Nosotros</h2>
             <p>
-              En Dev Burgers, no solo servimos hamburguesas, sino que también
+              En Burger-Dev, no solo servimos hamburguesas, sino que también
               estamos dedicados a elevar tus papilas gustativas a otro nivel.
               Nuestra innovadora temática de hamburguesas para programadores
               combina dos pasiones: la codificación y el sabor exquisito.
@@ -26,7 +26,7 @@ export const About = () => {
               comida, quienes han unido fuerzas para crear una experiencia
               gastronómica única. Cada hamburguesa está diseñada para reflejar
               la esencia de un lenguaje de programación y deleitar tus sentidos.
-              ¡Ven a Dev Burgers y déjate sorprender por cómo los códigos y los
+              ¡Ven a Burger-Dev y déjate sorprender por cómo los códigos y los
               sabores se entrelazan en cada bocado!
             </p>
           </div>

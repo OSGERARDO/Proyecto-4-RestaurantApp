@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    color: whitesmoke;
   }
   
   .menu-section {
@@ -13,16 +14,21 @@
   .menu-item {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #f8f8f8;
+    background-color: #000000;
     border: 1px solid #ddd;
     border-radius: 5px;
   }
+
+
   
   .menu-item h2 {
     margin-top: 0;
+    
+   
   }
   
   .menu-item strong {
+    color: yellow;
     display: block;
     font-size: 1.2rem;
     margin-bottom: 5px;
@@ -31,10 +37,12 @@
   .menu-item p {
     margin: 0;
     font-size: 1rem;
+  
   }
   
   .menu-item span {
     font-weight: bold;
+    
   }
   
   .menu-item .price {
@@ -43,3 +51,14 @@
   }
   
 
+/* Estilo para las imágenes en el menú */
+.menu-image {
+  max-width: 100px; /* Ajusta el ancho máximo de la imagen */
+  height: auto; /* Mantiene la proporción de aspecto */
+  margin-right: 10px; /* Agrega un espacio a la derecha de la imagen */
+  transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+.menu-image:hover {
+  transform: scale(1.1);
+}
